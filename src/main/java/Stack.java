@@ -94,7 +94,7 @@ public class Stack<Item> implements Iterable<Item> {
     public static void main(String[] args) {
         Stack<String> stack = new Stack<String>();
 
-        while (!stack.isEmpty()) {
+        while (!StdIn.isEmpty()) {
             String item = StdIn.readString();
             if (!item.equals("-")) {
                 stack.push(item);
